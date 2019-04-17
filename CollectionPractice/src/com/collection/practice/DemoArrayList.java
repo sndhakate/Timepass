@@ -53,8 +53,8 @@ public class DemoArrayList {
 		ListIterator<Object> it = al.listIterator();
 		while(it.hasNext()) {
 			Object obj = it.next();
-			String s1 = (String) obj;
-			System.out.println(s1);
+			Object o =  obj;
+			System.out.println(o);
 			}		
 //		
 //		System.out.println("Element at index 1 :" +al.get(1));
